@@ -12,7 +12,7 @@ public class TrieController {
     private final Trie trie = new Trie();
 
     private boolean isValidWord(String word) {
-        return word != null && word.matches("[a-z]+");
+        return word != null && word.matches("[a-z]+"); //hola
     }
 
     @GetMapping("/{word}/count")
