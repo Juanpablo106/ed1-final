@@ -1,7 +1,8 @@
-package ed.lab.ed1final.trie;
+package ed.lab.ed1final;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.MethodSource;
+import ed.lab.ed1final.trie.Trie;
 
 import java.io.IOException;
 import java.util.*;
